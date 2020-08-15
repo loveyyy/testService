@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FaceView">
+        <attr name="radius" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="DonutChart">
+        <attr name="test" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="SimpleView">
+        <attr name="shape" format="enum">
+            <enum name="circle" value="0"/>
+            <enum name="square" value="1"/>
+        </attr>
+        <attr name="dim" format="dimension"/>
+    </declare-styleable>
+</resources>
