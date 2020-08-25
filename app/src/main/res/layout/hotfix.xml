@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
 
@@ -16,4 +18,23 @@
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:text="跳转"/>
+
+
+    <com.example.test.ChartView
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="30dp"
+        app:xLabelTextSize="12"
+        app:yLabelTextSize="12"
+        app:xLabelColor="@color/colorPrimary"
+        app:yLabelColor="@color/cardview_light_background"
+        app:backColor="#FFFFFF"
+        app:xLineColor="#000000"
+        app:yLineColor="#000000"
+        app:xStrokeWidth="2"
+        app:yStrokeWidth="2"
+        app:canScroll="true"
+        app:xNum="5"
+        app:yNum="0"/>
 </LinearLayout>
